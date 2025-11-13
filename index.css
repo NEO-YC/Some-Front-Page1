@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+    padding: 20px;
+
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  #logo{
+    height: 35px;
+}
+}
+
+img {
+  max-width: 100%;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    margin-top: -1%;
+    align-items: center;
+    font-size: x-large;
+    font-family: bebas neue;
+    .bt{
+    color: bisque;
+    text-decoration: none;
+}
+
+
+
+
+}
+#callus {
+  background-color: bisque;
+  font-size: 20px;
+  height: 40px;
+  width: 60px;
+      font-family: bebas neue;
+      border-radius: 15px 15px 15px 15px;
+
+}
+#bigpic {
+    margin-top: -4%;
+}
+
+#sometext{
+font-family: poppins;
+    width: 50%;
+    font-size: 25px;
+    text-align: right;
+    margin-top: 7%;
+  
+}
+#bigtext{
+    width: 50%;
+    font-size: 60px;
+    margin-top: 5%;
+        font-family: bebas neue;
+
+}
+.colored{
+    color: rgb(221, 164, 94);
+}
+
+
+#bigdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3% auto;
+    width: 95%;
+}
